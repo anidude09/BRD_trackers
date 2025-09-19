@@ -88,8 +88,8 @@ The output videos will appear in the `runs/` directory.
 ## 📊 Suggested Experiments
 
 * Compare **ByteTrack vs BoT-SORT** tracking on the same video.
-* Switch between YOLO model sizes (`yolov8n.pt`, `yolov8s.pt`, `yolov9e.pt`) and see how accuracy and speed change.
-* Compare how long the runs take on HPRC vs your local machine.
+* Switch between YOLO model sizes (`yolov8n.pt`, `yolov8s.pt`, `yolov9e.pt`) and see how accuracy and speed change. -- OPTIONAL
+* Understand the challenges in the current tracking code and optimization suggestion. HPRC code run suggestions as well. 
 
 ---
 
