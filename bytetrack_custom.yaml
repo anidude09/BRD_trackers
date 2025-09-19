@@ -1,0 +1,8 @@
+tracker_type: bytetrack # tracker type, ['botsort', 'bytetrack']
+track_high_thresh: 0.25 # threshold for the first association
+track_low_thresh: 0.1 # threshold for the second association
+new_track_thresh: 0.75 # threshold for init new track if the detection does not match any tracks
+track_buffer: 360 # buffer to calculate the time when to remove tracks
+match_thresh: 0.9 # threshold for matching tracks
+fuse_score: True
+proximity_thresh: 0.5 # distance threshold for proximity warning in pixels
